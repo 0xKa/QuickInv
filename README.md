@@ -1,0 +1,2 @@
+# QuickInv
+Smart Inventory App
