@@ -3,7 +3,16 @@
     <style name="Base.Theme.QuickInv" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/quickinv_primary</item>
+        <item name="colorSecondary">@color/quickinv_secondary</item>
     </style>
 
     <style name="Theme.QuickInv" parent="Base.Theme.QuickInv" />
+
+    <style name="Theme.QuickInv.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/quickinv_surface</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="windowSplashScreenAnimationDuration">400</item>
+        <item name="postSplashScreenTheme">@style/Theme.QuickInv</item>
+    </style>
 </resources>
