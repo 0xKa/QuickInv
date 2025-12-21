@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuickInv</string>
+    <string name="tagline">Inventory Management Made Easy</string>
+
+    <!-- Login -->
+    <string name="login">Login</string>
+    <string name="login_subtitle">Welcome back! Login to your account</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="no_account">Don\'t have an account?</string>
+
+    <!-- Register -->
+    <string name="register">Register</string>
+    <string name="register_subtitle">Create a new account</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="have_account">Already have an account?</string>
+
+    <!-- Inventory -->
+    <string name="inventory">Inventory</string>
+    <string name="add_item">+ Add New Item</string>
+    <string name="no_items">No items yet. Add your first item!</string>
+    <string name="logout">Logout</string>
+
+    <!-- Item Details -->
+    <string name="item_name">Item Name</string>
+    <string name="enter_item_name">Enter item name</string>
+    <string name="quantity">Quantity</string>
+    <string name="enter_quantity">Enter quantity</string>
+    <string name="price">Price</string>
+    <string name="enter_price">Enter price</string>
+    <string name="description">Description</string>
+    <string name="enter_description">Enter description (optional)</string>
+
+    <!-- Buttons -->
+    <string name="save">Save</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+
+    <!-- Currency Conversion -->
+    <string name="convert_currency">Convert Currency</string>
+    <string name="currency_converter">Currency Converter</string>
+    <string name="base_currency">Base Currency</string>
+    <string name="target_currency">Target Currency</string>
+    <string name="amount">Amount</string>
+    <string name="convert">Convert</string>
+    <string name="cancel">Cancel</string>
+</resources>
