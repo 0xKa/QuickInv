@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Currency Converter"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:id="@+id/base_currency"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Base Currency (OMR)"
+        android:inputType="text"
+        android:text="OMR"
+        android:padding="12dp"
+        android:background="@color/background_color"
+        android:layout_marginBottom="12dp"
+        android:textColor="@color/text_primary" />
+
+    <EditText
+        android:id="@+id/target_currency"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Target Currency (USD)"
+        android:inputType="text"
+        android:text="USD"
+        android:padding="12dp"
+        android:background="@color/background_color"
+        android:layout_marginBottom="12dp"
+        android:textColor="@color/text_primary" />
+
+    <EditText
+        android:id="@+id/amount_to_convert"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Amount to Convert"
+        android:inputType="numberDecimal"
+        android:text="1.0"
+        android:padding="12dp"
+        android:background="@color/background_color"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/text_primary" />
+
+    <ProgressBar
+        android:id="@+id/conversion_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/conversion_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/primary_color"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        android:text="" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:padding="12dp">
+
+        <Button
+            android:id="@+id/cancel_button"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Cancel"
+            android:textColor="@color/text_primary"
+            android:background="@color/background_color"
+            android:layout_marginRight="8dp" />
+
+        <Button
+            android:id="@+id/convert_button"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Convert"
+            android:textColor="@color/white"
+            android:background="@color/primary_color" />
+
+    </LinearLayout>
+
+</LinearLayout>

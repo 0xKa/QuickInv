@@ -21,6 +21,29 @@
             </intent-filter>
         </activity>
 
+        <!-- Login Activity -->
+        <activity
+            android:name=".activities.LoginActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+        <!-- Register Activity -->
+        <activity
+            android:name=".activities.RegisterActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+        <!-- Inventory Activity -->
+        <activity
+            android:name=".activities.InventoryActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+        <!-- Add/Edit Item Activity -->
+        <activity
+            android:name=".activities.AddEditItemActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
 
     </application>
 
