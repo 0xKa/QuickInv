@@ -4,6 +4,8 @@
 
 QuickInv is an Android application designed to help individuals and small businesses efficiently manage their inventory
 
+![screenshot1](./screenshots/readme/Screenshot%202025-12-21%20112954.png)
+
 ## 📱 Features
 
 ### Core Functionality
