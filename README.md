@@ -2,10 +2,14 @@
 
 **Smart Inventory Management Mobile Application**
 
-QuickInv is an Android application designed to help individuals and small businesses efficiently manage their inventory
+QuickInv is an Android application designed for individuals and businesses to manage their inventory.
 
 ![screenshot1](./screenshots/Screenshot%202025-12-21%20113359.png)
 ![screenshot2](./screenshots/Screenshot%202025-12-21%20113602.png)
+
+---
+
+![use-case-diagram](./screenshots/use-case-diagram.png)
 
 ## 📱 Features
 
